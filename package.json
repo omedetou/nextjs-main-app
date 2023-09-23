@@ -8,7 +8,7 @@
     "yarn": "please-use-npm"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -27,6 +27,7 @@
     "@types/react": "^18.2.22",
     "@types/react-dom": "^18.2.7",
     "autoprefixer": "^10.4.16",
+    "cross-env": "^7.0.3",
     "eslint": "^8.49.0",
     "eslint-config-next": "^13.5.2",
     "husky": "^8.0.3",
