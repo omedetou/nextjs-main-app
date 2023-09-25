@@ -26,8 +26,6 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts",
-    "src/app/pages/dashboard.js"
-  ],
+    ".next/types/**/*.ts", "src/app/(pages)/layout.tsx" ],
   "exclude": ["node_modules"]
 }
